@@ -34,7 +34,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = "3108330268";
+    var serviceWorkerVersion = "448830071";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -272,6 +272,11 @@
         }
       }, 10000);
     }
+  </script>
+  <script>
+    document.body.addEventListener('contextmenu', (event) => {
+      event.preventDefault();
+    });
   </script>
   <div class="loading" id="loading_indicator">
     <div class="logo chrome">
